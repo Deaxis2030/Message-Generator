@@ -54,6 +54,8 @@ const changer = num => {
 
 
 wordButton.addEventListener("click", ()=>{
+   
+    displayMessage.innerText = changer(randNum());
     displayMessage.style.opacity = 0;
     setTimeout(() => {
         displayMessage.style.opacity = 1;
@@ -63,6 +65,6 @@ wordButton.addEventListener("click", ()=>{
             displayMessage.style.transition = "opacity 2s";
         }, 2000);
     }, 1000);
-    displayMessage.innerText = changer(randNum());
+    
     
 });
