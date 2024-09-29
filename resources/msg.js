@@ -62,8 +62,8 @@ wordButton.addEventListener("click", ()=>{
         displayMessage.style.transition = "opacity 2s";
         setTimeout(() => {
             displayMessage.style.opacity = 0;
-            displayMessage.style.transition = "opacity 2s";
-        }, 2000);
+            displayMessage.style.transition = "opacity 6s";
+        }, 5000);
     }, 1000);
     
     
