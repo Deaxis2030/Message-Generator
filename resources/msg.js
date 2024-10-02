@@ -1,5 +1,4 @@
 const wordButton = document.getElementById("wordButton");
-const displayWord = document.getElementById("displayWord");
 const displayMessage = document.getElementById("message");
 
 const randNum = () => {
